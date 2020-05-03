@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import PersonList from "./apiwithaxios/personlist";
+// import PersonList from "./apiwithaxios/userpost";
+// import PersonList from "./apiwithaxios/delete";
+// import PersonList from "./apiinstanceawait/deleteawait";
+// import PersonList from "./apiinstanceawait/userpostawait";
+import App from "./axiosshards/App";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<PersonList/>*/}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
